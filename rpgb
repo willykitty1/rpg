@@ -63,6 +63,5 @@ RpgLock.MouseButton1Click:Connect(function()
             RPGTarget = nil
             notify('Rpg unlocked', '', 3)
         end
-    end)
-end)
+    end
 end)
