@@ -39,7 +39,6 @@ end
                     RpgTimer = DS 
                     Distance = DT
                 end
-            end
 RpgLock.MouseButton1Click:Connect(function()
     local RpgTool = Instance.new('Tool', player.Backpack)
     RpgTool.ToolTip = 'Click a player to rpg lock them'
@@ -63,5 +62,6 @@ RpgLock.MouseButton1Click:Connect(function()
             RPGTarget = nil
             notify('Rpg unlocked', '', 3)
         end
-    end
+    end)
+end)
 end)
